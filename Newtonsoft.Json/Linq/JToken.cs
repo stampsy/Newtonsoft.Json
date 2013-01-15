@@ -234,7 +234,7 @@ namespace Newtonsoft.Json.Linq
     /// <typeparam name="T">The type to convert the token to.</typeparam>
     /// <param name="key">The token key.</param>
     /// <returns>The converted token value.</returns>
-    public virtual T Value<T>(object key)
+    public T Value<T>(object key)
     {
       JToken token = this[key];
 
